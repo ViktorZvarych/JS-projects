@@ -353,3 +353,8 @@ nav .navbar .links li .sub-menu li{
 main {
   margin-top: 5rem;
 }
+
+.project-title {
+  text-align: center;
+  border-bottom: 1px solid var(--nav-bg-color);
+}
