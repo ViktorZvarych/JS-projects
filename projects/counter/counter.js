@@ -1,8 +1,6 @@
 (() => {
   const display = document.querySelector(".current-value");
-  let currentValue = Number(
-    document.querySelector(".current-value").textContent
-  );
+  let currentValue = Number(display.textContent);
   const btnMinus = document.querySelector(".btn-minus");
   const btnReset = document.querySelector(".btn-reset");
   const btnPlus = document.querySelector(".btn-plus");

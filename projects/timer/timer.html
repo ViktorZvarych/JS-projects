@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Timer</title>
     <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="./timer.css" />
-</head>
+  </head>
 
-<body>
-    <header class="root" id="root">
-    </header>
+  <body>
+    <header class="root" id="root"></header>
 
     <main>
-        <div class="timer">
-            <h2 class="project-title">Counter</h2>
-            <p class="current-value">0</p>
-            <div class="timer-container">
-                <button class="btn btn-start">Start</button>
-                <button class="btn btn-reset">Reset</button>
-                <button class="btn btn-stop">Stop</button>
-            </div>
+      <div class="timer">
+        <h2 class="project-title">Counter</h2>
+        <div class="display">
+          <p class="current-value"><span id="hours">00</span><span>houres</span></p>
+          <p class="current-value"><span id="minutes">00</span><span>minutes</span></p>
+          <p class="current-value"><span id="seconds">00</span><span>seconds</span></p>
         </div>
+
+        <div class="timer-container">
+          <button class="btn btn-start">Start</button>
+          <button class="btn btn-reset">Reset</button>
+          <button class="btn btn-stop">Stop</button>
+        </div>
+      </div>
     </main>
 
     <script src="/menu.js"></script>
     <script src="/script.js"></script>
     <script src="./timer.js"></script>
-</body>
-
+  </body>
 </html>
