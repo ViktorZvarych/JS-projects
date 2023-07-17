@@ -3,29 +3,29 @@
   let currentValue = Number(
     document.querySelector(".current-value").textContent
   );
-  const btnMinus = document.querySelector(".btn-minus");
+  const btnStart = document.querySelector(".btn-start");
   const btnReset = document.querySelector(".btn-reset");
-  const btnPlus = document.querySelector(".btn-plus");
+  const btnStop = document.querySelector(".btn-stop");
 
-  btnMinus.addEventListener("click", minusOne);
+  btnMinus.addEventListener("click", startTimer);
   btnReset.addEventListener("click", reset);
-  btnPlus.addEventListener("click", plusOne);
+  btnPlus.addEventListener("click", stopTimer);
 
-  function minusOne() {
+  function startTimer() {
     console.log("-");
     currentValue--;
-    display.textContent = currentValue;
-  }
-
-  function plusOne() {
-    console.log("+");
-    currentValue++;
     display.textContent = currentValue;
   }
 
   function reset() {
     console.log("0");
     currentValue = 0;
+    display.textContent = currentValue;
+    }
+    
+  function stopTimer() {
+    console.log("+");
+    currentValue++;
     display.textContent = currentValue;
   }
 })();

@@ -357,4 +357,22 @@ main {
 .project-title {
   text-align: center;
   border-bottom: 1px solid var(--nav-bg-color);
+  margin: 1rem 5rem;
+  padding: 1rem;
+}
+
+.btn {
+    height: 3rem;
+    width: 7rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: var(--nav-text-color);
+    border: 1px solid var(--nav-bg-color);
+}
+
+.btn:active {
+  background-color: var(--nav-bg-color);
+  color: var(--nav-text-color);
+  box-shadow: 3px 2px 2px var(--nav-bg-color);
 }

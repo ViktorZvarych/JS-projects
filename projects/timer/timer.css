@@ -3,8 +3,9 @@
     font-size: 3rem;
 }
 
-.counter-container {
+.timer-container {
     display: flex;
+    gap: 0.5rem;
     margin: 1rem auto;
     justify-content: space-around;
     align-items: center;
